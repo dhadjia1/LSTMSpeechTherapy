@@ -5,3 +5,5 @@ SpeechParsing.ipynb crawls and extracts top speeches from http://www.artofmanlin
 
 SpeechLSTM.ipynb trains a multi-layer LSTM artificial NN on these speeches. The best fit weights are saved to an hdf5 file.
 These weights can be loaded into the LSTM in order to output artificial speech text that incorporates patterns from world famous orators who lived in vastly different periods of time.
+
+For your convenience, ConvertToScripy.py will convert the .ipynb jupyter notebook to a more familiar .py script. 
